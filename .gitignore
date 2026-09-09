@@ -1,0 +1,10 @@
+*.exe
+*.out
+matrix_mult
+matrix_mult.exe
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
