@@ -7,7 +7,7 @@
 
 - [Лабораторная работа 1](./lab1) — последовательная версия. [Отчёт](./lab1/README.md)
 - [Лабораторная работа 2](./lab2) — параллельная версия на OpenMP. [Отчёт](./lab2/README.md)
-- 
+- https://github.com/saparina-j/saparina_J-parallel-programming/tree/main/Lab3.1
 
 ## Задание л/р
 1)
