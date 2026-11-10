@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -N matrix_mpi
+#PBS -l walltime=00:30:00
+#PBS -l nodes=1:ppn=1
+#PBS -j oe
+cd $PBS_O_WORKDIR
+
+module purge
+module load intel/mpi4
+
+mpirun -r ssh -machinefile $PBS_NODEFILE -np $PBS_NP ./matrix_mpi 1200 A_1200.txt B_1200.txt C_1200_1.txt
